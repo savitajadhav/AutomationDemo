@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GreenOrbit Applocation Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG"/>
+  </listeners>
+  <test name="GreenOrbit Application Test Cases(failed)">
+    <classes>
+      <class name="com.greenorbit.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.greenorbit.qa.testcases.LoginPageTest -->
+      <class name="com.greenorbit.qa.testcases.HomePageTest">
+        <methods>
+          <include name="clickOnWebsiteUserTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="clickonAddWebsiteUserTest"/>
+          <include name="setUp"/>
+          <include name="clickOnHelpLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyPageHeadingTest"/>
+          <include name="clickOnAboutLinkTest"/>
+        </methods>
+      </class> <!-- com.greenorbit.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- GreenOrbit Application Test Cases(failed) -->
+</suite> <!-- Failed suite [GreenOrbit Applocation Test Automation Test Suite] -->

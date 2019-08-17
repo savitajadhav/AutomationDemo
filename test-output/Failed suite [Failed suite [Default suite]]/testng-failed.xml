@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Default suite]]]">
+  <test name="Default test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.greenorbit.qa.testcases.WebsiteUserPageTest">
+        <methods>
+          <include name="verifyWebsiteUserPageTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCreateNewWebsiteUser"/>
+        </methods>
+      </class> <!-- com.greenorbit.qa.testcases.WebsiteUserPageTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
