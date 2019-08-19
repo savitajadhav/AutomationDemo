@@ -1,5 +1,5 @@
 /*
- * Author : Savita Jadhav
+ * @Author  Savita Jadhav
  */
 package com.greenorbit.qa.testcases;
 

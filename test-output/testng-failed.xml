@@ -5,9 +5,10 @@
     <classes>
       <class name="com.greenorbit.qa.testcases.WebsiteUserPageTest">
         <methods>
+          <include name="verifyWebsiteUserPageTitle"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifyCreateNewWebsiteUser" invocation-numbers="0 1"/>
+          <include name="verifyCreateNewWebsiteUser"/>
         </methods>
       </class> <!-- com.greenorbit.qa.testcases.WebsiteUserPageTest -->
     </classes>

@@ -43,9 +43,9 @@ public class LoginPage extends TestBase{
 		username.sendKeys(uname);
 		password.sendKeys(pwd);
 	    loginBtn.click();
-	    adminname.sendKeys(aname);
-	    adminpwd.sendKeys(apwd);
-	    loginBtn.click();
+	    //adminname.sendKeys(aname);
+	    //adminpwd.sendKeys(apwd);
+	    //loginBtn.click();
 	    return new HomePage();
 	}
 
