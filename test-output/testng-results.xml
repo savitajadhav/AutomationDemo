@@ -1,259 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="136425" started-at="2019-08-19T04:18:00Z" finished-at="2019-08-19T04:20:16Z">
+  <suite name="Default suite" duration-ms="91279" started-at="2019-08-19T07:15:50Z" finished-at="2019-08-19T07:17:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="136425" started-at="2019-08-19T04:18:00Z" finished-at="2019-08-19T04:20:16Z">
-      <class name="com.greenorbit.qa.testcases.WebsiteUserPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="13985" started-at="2019-08-19T09:48:00Z" finished-at="2019-08-19T09:48:14Z">
+    <test name="Default test" duration-ms="91279" started-at="2019-08-19T07:15:50Z" finished-at="2019-08-19T07:17:22Z">
+      <class name="com.greenorbit.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="10919" started-at="2019-08-19T12:45:51Z" finished-at="2019-08-19T12:46:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyWebsiteUserPageTitle()[pri:1, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="verifyWebsiteUserPageTitle" duration-ms="116" started-at="2019-08-19T09:48:14Z" finished-at="2019-08-19T09:48:14Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="verifyHomePageTitleTest" duration-ms="17" started-at="2019-08-19T12:46:01Z" finished-at="2019-08-19T12:46:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebsiteUserPageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="749" started-at="2019-08-19T09:48:14Z" finished-at="2019-08-19T09:48:15Z">
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="tearDown" is-config="true" duration-ms="1011" started-at="2019-08-19T12:46:01Z" finished-at="2019-08-19T12:46:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="11723" started-at="2019-08-19T09:48:15Z" finished-at="2019-08-19T09:48:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="10331" started-at="2019-08-19T12:46:02Z" finished-at="2019-08-19T12:46:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateNewWebsiteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="verifyCreateNewWebsiteUser" duration-ms="7585" started-at="2019-08-19T09:48:27Z" data-provider="getGreenorbitTestData" finished-at="2019-08-19T09:48:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[roy]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[miller]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[roymiller@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[roymiller]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[roymiller]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="verifyPageHeadingTest()[pri:2, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="verifyPageHeadingTest" duration-ms="148" started-at="2019-08-19T12:46:13Z" finished-at="2019-08-19T12:46:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateNewWebsiteUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="854" started-at="2019-08-19T09:48:35Z" finished-at="2019-08-19T09:48:35Z">
+        </test-method> <!-- verifyPageHeadingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="tearDown" is-config="true" duration-ms="873" started-at="2019-08-19T12:46:13Z" finished-at="2019-08-19T12:46:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="13074" started-at="2019-08-19T09:48:35Z" finished-at="2019-08-19T09:48:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="11851" started-at="2019-08-19T12:46:14Z" finished-at="2019-08-19T12:46:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateNewWebsiteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="verifyCreateNewWebsiteUser" duration-ms="6646" started-at="2019-08-19T09:48:48Z" data-provider="getGreenorbitTestData" finished-at="2019-08-19T09:48:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lily]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[miller]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[lilymiller@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[lilymiller]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[lilymiller]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="clickOnHelpLinkTest()[pri:3, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="clickOnHelpLinkTest" duration-ms="2228" started-at="2019-08-19T12:46:26Z" finished-at="2019-08-19T12:46:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateNewWebsiteUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="938" started-at="2019-08-19T09:48:55Z" finished-at="2019-08-19T09:48:56Z">
+        </test-method> <!-- clickOnHelpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="tearDown" is-config="true" duration-ms="910" started-at="2019-08-19T12:46:28Z" finished-at="2019-08-19T12:46:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="15097" started-at="2019-08-19T09:48:56Z" finished-at="2019-08-19T09:49:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="9894" started-at="2019-08-19T12:46:29Z" finished-at="2019-08-19T12:46:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateNewWebsiteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="verifyCreateNewWebsiteUser" duration-ms="5904" started-at="2019-08-19T09:49:11Z" data-provider="getGreenorbitTestData" finished-at="2019-08-19T09:49:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iphone]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iphone@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[iphone]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[iphone@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="clickOnAboutLinkTest()[pri:4, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="clickOnAboutLinkTest" duration-ms="7313" started-at="2019-08-19T12:46:39Z" finished-at="2019-08-19T12:46:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateNewWebsiteUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="781" started-at="2019-08-19T09:49:17Z" finished-at="2019-08-19T09:49:18Z">
+        </test-method> <!-- clickOnAboutLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="tearDown" is-config="true" duration-ms="1031" started-at="2019-08-19T12:46:46Z" finished-at="2019-08-19T12:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="12276" started-at="2019-08-19T09:49:18Z" finished-at="2019-08-19T09:49:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="10323" started-at="2019-08-19T12:46:47Z" finished-at="2019-08-19T12:46:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateNewWebsiteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="verifyCreateNewWebsiteUser" duration-ms="5982" started-at="2019-08-19T09:49:30Z" data-provider="getGreenorbitTestData" finished-at="2019-08-19T09:49:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ipad]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ipad@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ipad]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[ipad@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="clickOnWebsiteUserTest()[pri:5, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="clickOnWebsiteUserTest" duration-ms="4968" started-at="2019-08-19T12:46:57Z" finished-at="2019-08-19T12:47:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateNewWebsiteUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="890" started-at="2019-08-19T09:49:36Z" finished-at="2019-08-19T09:49:37Z">
+        </test-method> <!-- clickOnWebsiteUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="tearDown" is-config="true" duration-ms="933" started-at="2019-08-19T12:47:02Z" finished-at="2019-08-19T12:47:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="12106" started-at="2019-08-19T09:49:37Z" finished-at="2019-08-19T09:49:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="11463" started-at="2019-08-19T12:47:03Z" finished-at="2019-08-19T12:47:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateNewWebsiteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="verifyCreateNewWebsiteUser" duration-ms="6128" started-at="2019-08-19T09:49:49Z" data-provider="getGreenorbitTestData" finished-at="2019-08-19T09:49:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[moto]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[moto@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[moto]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[moto@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="clickonAddWebsiteUserTest()[pri:6, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="clickonAddWebsiteUserTest" duration-ms="6049" started-at="2019-08-19T12:47:15Z" finished-at="2019-08-19T12:47:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateNewWebsiteUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="1024" started-at="2019-08-19T09:49:55Z" finished-at="2019-08-19T09:49:56Z">
+        </test-method> <!-- clickonAddWebsiteUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.HomePageTest@3532ec19]" name="tearDown" is-config="true" duration-ms="972" started-at="2019-08-19T12:47:21Z" finished-at="2019-08-19T12:47:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="13148" started-at="2019-08-19T09:49:56Z" finished-at="2019-08-19T09:50:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateNewWebsiteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="verifyCreateNewWebsiteUser" duration-ms="6020" started-at="2019-08-19T09:50:09Z" data-provider="getGreenorbitTestData" finished-at="2019-08-19T09:50:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lenovo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[lenovo@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[lenovo]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[lenovo@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCreateNewWebsiteUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.greenorbit.qa.testcases.WebsiteUserPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="763" started-at="2019-08-19T09:50:15Z" finished-at="2019-08-19T09:50:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.greenorbit.qa.testcases.WebsiteUserPageTest -->
+      </class> <!-- com.greenorbit.qa.testcases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
